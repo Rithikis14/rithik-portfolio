@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Progress } from '@/components/ui/progress';
 
 const experienceData = [
   {
@@ -10,13 +11,15 @@ const experienceData = [
         title: 'High School',
         organization: 'Springfield High School',
         details: 'GPA: 3.9/4.0',
-        period: '2016 - 2020'
+        period: '2016 - 2020',
+        progress: 95
       },
       {
         title: 'Bachelor of Computer Science',
         organization: 'University of Technology',
         details: 'GPA: 3.8/4.0 - Magna Cum Laude',
-        period: '2020 - 2024'
+        period: '2020 - 2024',
+        progress: 88
       }
     ]
   },
@@ -27,13 +30,41 @@ const experienceData = [
         title: 'Software Engineering Intern',
         organization: 'Tech Startup Inc.',
         details: 'Developed full-stack applications using React and Node.js',
-        period: 'Summer 2023'
+        period: 'Summer 2023',
+        progress: 85
       },
       {
         title: 'Junior Full Stack Developer',
         organization: 'Digital Solutions Ltd.',
         details: 'Building scalable web applications and REST APIs',
-        period: '2024 - Present'
+        period: '2024 - Present',
+        progress: 70
+      }
+    ]
+  },
+  {
+    category: 'Skills Progress',
+    items: [
+      {
+        title: 'Frontend Development',
+        organization: 'React, TypeScript, Next.js',
+        details: 'Advanced proficiency in modern frontend technologies',
+        period: 'Ongoing',
+        progress: 90
+      },
+      {
+        title: 'Backend Development',
+        organization: 'Node.js, Python, Databases',
+        details: 'Strong foundation in server-side development',
+        period: 'Ongoing',
+        progress: 75
+      },
+      {
+        title: 'DevOps & Cloud',
+        organization: 'AWS, Docker, CI/CD',
+        details: 'Growing expertise in cloud infrastructure',
+        period: 'Ongoing',
+        progress: 60
       }
     ]
   }
@@ -53,7 +84,7 @@ const Experience = () => {
             Experience
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            My educational background and professional journey
+            My educational background and professional journey with progress tracking
           </p>
         </motion.div>
 
@@ -91,9 +122,26 @@ const Experience = () => {
                       {item.organization}
                     </p>
                     
-                    <p className="text-gray-400">
+                    <p className="text-gray-400 mb-4">
                       {item.details}
                     </p>
+
+                    <div className="space-y-2">
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm text-gray-400">Progress</span>
+                        <span className="text-sm font-medium text-purple-400">{item.progress}%</span>
+                      </div>
+                      <motion.div
+                        initial={{ width: 0 }}
+                        animate={{ width: "100%" }}
+                        transition={{ delay: sectionIndex * 0.3 + itemIndex * 0.2, duration: 0.8 }}
+                      >
+                        <Progress 
+                          value={item.progress} 
+                          className="h-2 bg-gray-700"
+                        />
+                      </motion.div>
+                    </div>
                   </motion.div>
                 ))}
               </div>
