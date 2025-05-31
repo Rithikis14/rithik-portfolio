@@ -40,7 +40,7 @@ const Hero = () => {
           <div className="relative w-48 h-48 mx-auto">
             <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-red-400 rounded-full blur-lg opacity-30"></div>
             <img
-              src="\public\IMG-20250412-WA0015.jpg"
+              src="/IMG-20250412-WA0015.jpg"
               alt="Profile"
               className="relative w-full h-full rounded-full object-cover border-4 border-gray-700"
             />
@@ -77,7 +77,7 @@ const Hero = () => {
           variants={itemVariants}
           className="flex flex-col sm:flex-row gap-6 justify-center mb-16"
         >
-          <a href="/public/rithik resume main.pdf"><button className="px-8 py-4 bg-gradient-to-r from-purple-600 to-red-600 rounded-full text-white font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105">
+          <a href="\rithik resume main.pdf"><button className="px-8 py-4 bg-gradient-to-r from-purple-600 to-red-600 rounded-full text-white font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105">
             Download Resume
           </button></a>
           <Link
