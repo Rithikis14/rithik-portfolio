@@ -8,18 +8,18 @@ const experienceData = [
     category: 'Education',
     items: [
       {
-        title: 'High School',
-        organization: 'Springfield High School',
-        details: 'GPA: 3.9/4.0',
-        period: '2016 - 2020',
-        progress: 95
+        title: 'University',
+        organization: 'St. Josephs Institute Of Technology',
+        details: 'CGPA: 8.42',
+        period: '2023-2027',
+        progress: 50
       },
       {
-        title: 'Bachelor of Computer Science',
-        organization: 'University of Technology',
-        details: 'GPA: 3.8/4.0 - Magna Cum Laude',
-        period: '2020 - 2024',
-        progress: 88
+        title: 'High School',
+        organization: 'Bharath Senior Secondary School',
+        details: 'Percentage: 68%',
+        period: '2008 - 2023',
+        progress: 100
       }
     ]
   },
@@ -27,47 +27,22 @@ const experienceData = [
     category: 'Professional Experience',
     items: [
       {
-        title: 'Software Engineering Intern',
-        organization: 'Tech Startup Inc.',
-        details: 'Developed full-stack applications using React and Node.js',
-        period: 'Summer 2023',
-        progress: 85
+        title: 'Frontend Intern',
+        organization: 'Cetas Information Technology Pvt Ltd',
+        details: 'Developed Frontend Interfaces using HTML, CSS, JavaScript, ReactJs, Bootstrap, JQuery',
+        period: 'Summer 2025',
+        progress: 15
       },
       {
-        title: 'Junior Full Stack Developer',
-        organization: 'Digital Solutions Ltd.',
-        details: 'Building scalable web applications and REST APIs',
-        period: '2024 - Present',
-        progress: 70
+        title: 'Data Scientist',
+        organization: 'Prodigy Infotech',
+        details: 'Prepare, modify, analyse and predicting data',
+        period: '2024 Dec - 2025 Jan',
+        progress: 100
       }
     ]
   },
-  {
-    category: 'Skills Progress',
-    items: [
-      {
-        title: 'Frontend Development',
-        organization: 'React, TypeScript, Next.js',
-        details: 'Advanced proficiency in modern frontend technologies',
-        period: 'Ongoing',
-        progress: 90
-      },
-      {
-        title: 'Backend Development',
-        organization: 'Node.js, Python, Databases',
-        details: 'Strong foundation in server-side development',
-        period: 'Ongoing',
-        progress: 75
-      },
-      {
-        title: 'DevOps & Cloud',
-        organization: 'AWS, Docker, CI/CD',
-        details: 'Growing expertise in cloud infrastructure',
-        period: 'Ongoing',
-        progress: 60
-      }
-    ]
-  }
+  
 ];
 
 const Experience = () => {

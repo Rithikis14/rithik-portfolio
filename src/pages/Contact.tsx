@@ -27,10 +27,10 @@ const Contact = () => {
   };
 
   const socialLinks = [
-    { icon: Github, name: 'GitHub', href: 'https://github.com', color: 'hover:text-gray-400' },
-    { icon: Linkedin, name: 'LinkedIn', href: 'https://linkedin.com', color: 'hover:text-blue-400' },
-    { icon: Instagram, name: 'Instagram', href: 'https://instagram.com', color: 'hover:text-pink-400' },
-    { icon: X, name: 'Twitter', href: 'https://twitter.com', color: 'hover:text-blue-300' },
+    { icon: Github, name: 'GitHub', href: 'https://github.com/Rithikis14', color: 'hover:text-gray-400' },
+    { icon: Linkedin, name: 'LinkedIn', href: 'https://www.linkedin.com/in/rithikvkumar14', color: 'hover:text-blue-400' },
+    { icon: Instagram, name: 'Instagram', href: 'https://www.instagram.com/rithikvk_14/', color: 'hover:text-pink-400' },
+    { icon: X, name: 'Twitter', href: 'https://x.com/rithikk63135723', color: 'hover:text-blue-300' },
   ];
 
   return (
@@ -66,19 +66,19 @@ const Contact = () => {
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-purple-400">Email</h3>
                 <a
-                  href="mailto:john.doe@example.com"
+                  href="mailto:rithikvkumar1475@gmail.com"
                   className="text-xl text-gray-300 hover:text-white transition-colors"
                 >
-                  john.doe@example.com
+                  rithikvkumar1475@gmail.com
                 </a>
               </div>
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-purple-400">Phone</h3>
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+91 75500 52408"
                   className="text-xl text-gray-300 hover:text-white transition-colors"
                 >
-                  +1 (234) 567-890
+                  +91 75500-52408
                 </a>
               </div>
             </div>
@@ -114,7 +114,7 @@ const Contact = () => {
               whileTap={{ scale: 0.95 }}
               className="px-8 py-4 bg-gradient-to-r from-purple-600 to-red-600 rounded-full text-white font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300"
             >
-              Start a Conversation
+              <a href="https://wa.me/7550052408" target='_blank'>Start a Conversation</a>
             </motion.button>
           </motion.div>
         </motion.div>

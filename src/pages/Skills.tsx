@@ -4,43 +4,43 @@ import { motion } from 'framer-motion';
 
 const skillCategories = [
   {
-    title: 'Frontend Development',
+    title: 'Programming Languages',
     skills: [
-      { name: 'React.js', level: 95 },
-      { name: 'TypeScript', level: 90 },
-      { name: 'Next.js', level: 85 },
-      { name: 'Tailwind CSS', level: 90 },
-      { name: 'Framer Motion', level: 80 },
-    ]
-  },
-  {
-    title: 'Backend Development',
-    skills: [
-      { name: 'Node.js', level: 88 },
-      { name: 'Python', level: 92 },
-      { name: 'PostgreSQL', level: 85 },
-      { name: 'MongoDB', level: 80 },
-      { name: 'REST APIs', level: 90 },
+      { name: 'Python', level: 95 },
+      { name: 'Java', level: 80 },
+      { name: 'C Programming', level: 70 },
+      { name: 'SQL', level: 70 },
+      { name: 'JavaScript', level: 50 },
     ]
   },
   {
     title: 'Data Science & ML',
     skills: [
-      { name: 'Machine Learning', level: 85 },
-      { name: 'TensorFlow', level: 80 },
-      { name: 'Pandas', level: 90 },
-      { name: 'Data Visualization', level: 88 },
-      { name: 'Statistical Analysis', level: 85 },
+      { name: 'Pandas', level: 95 },
+      { name: 'Data Visualization', level: 80 },
+      { name: 'Database', level: 70 },
+      { name: 'Machine Learning', level: 60 },
+      { name: 'TensorFLow', level: 50 }
+    ]
+  },
+  {
+    title: 'Frontend Development',
+    skills: [
+      { name: 'HTML', level: 95 },
+      { name: 'CSS', level: 75 },
+      { name: 'ReactJs', level: 50 },
+      { name: 'JQuery', level: 45 },
+      { name: 'Next.Js', level: 30 },
     ]
   },
   {
     title: 'Tools & Others',
     skills: [
-      { name: 'Git/GitHub', level: 95 },
-      { name: 'Docker', level: 75 },
-      { name: 'AWS', level: 70 },
+      { name: 'Git/GitHub', level: 75 },
+      { name: 'Power BI', level: 75 },
+      { name: 'Knime Analytics', level: 80 },
       { name: 'Figma', level: 80 },
-      { name: 'Project Management', level: 85 },
+      { name: 'Prompt Engineering', level: 90 },
     ]
   }
 ];

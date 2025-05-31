@@ -3,26 +3,17 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const codingPlatforms = [
-  { name: 'LeetCode', problems: 450, url: '#' },
-  { name: 'HackerRank', problems: 320, url: '#' },
-  { name: 'CodeChef', problems: 280, url: '#' },
-  { name: 'Codeforces', problems: 150, url: '#' },
-  { name: 'AtCoder', problems: 90, url: '#' },
-  { name: 'TopCoder', problems: 75, url: '#' },
-  { name: 'GeeksforGeeks', problems: 200, url: '#' },
-  { name: 'HackerEarth', problems: 180, url: '#' },
-  { name: 'Codewars', problems: 120, url: '#' },
-  { name: 'Project Euler', problems: 85, url: '#' },
-  { name: 'SPOJ', problems: 110, url: '#' },
-  { name: 'InterviewBit', problems: 95, url: '#' },
-  { name: 'Kaggle', problems: 25, url: '#' },
-  { name: 'CodeSignal', problems: 160, url: '#' },
-  { name: 'Exercism', problems: 140, url: '#' },
-  { name: 'Coderbyte', problems: 100, url: '#' },
-  { name: 'AlgoExpert', problems: 80, url: '#' },
-  { name: 'Pramp', problems: 45, url: '#' },
-  { name: 'CodePen', problems: 60, url: '#' },
-  { name: 'GitHub', problems: 500, url: '#' }
+  { name: 'LeetCode', problems: '120+', url: 'https://leetcode.com/u/nle_rithik/' },
+  { name: 'Skillrack', problems: '1050+', url: 'https://www.skillrack.com/faces/resume.xhtml?id=447837&key=14e20a877b868277af2824a54742e30914d1ba5a' },
+  { name: 'CodeChef', problems: '590+', url: 'https://www.codechef.com/users/troop_fury_53' },
+  { name: 'CodingNinjas', problems: '50+', url: 'https://www.naukri.com/code360/profile/fbfd121f-429c-4965-b19c-124a5921006e' },
+  { name: 'HackerRank', problems: 30, url: 'https://www.hackerrank.com/profile/23cs1165' },
+  { name: 'CodeDex', problems: 10, url: 'https://www.codedex.io/@Rithik14' },
+  { name: 'GeeksforGeeks', problems: '30+', url: 'https://www.geeksforgeeks.org/user/rithikvkuque1/?_gl=1*fxa8v6*_up*MQ..*_gs*MQ..&gclid=CjwKCAiA3ZC6BhBaEiwAeqfvyrQ2xNlnHjmz9HzTnqNGxyLmwRBTdCitRmtp-w_0MCHQOJiw8vO-YRoC3kkQAvD_BwE' },
+  { name: 'CSSBattle', problems: 5, url: 'https://cssbattle.dev/player/dotnet_mama' },
+  { name: 'Kaggle', problems: 2, url: 'https://www.kaggle.com/rithikvkumar' },
+  { name: 'Github', problems: 13, url: 'https://github.com/Rithikis14' },
+  { name: 'Codewars', problems: 5, url: 'https://www.codewars.com/users/Rithik1475' },
 ];
 
 const CodingProfiles = () => {
