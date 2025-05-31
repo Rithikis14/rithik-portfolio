@@ -77,7 +77,7 @@ const Hero = () => {
           variants={itemVariants}
           className="flex flex-col sm:flex-row gap-6 justify-center mb-16"
         >
-          <a href="\rithik resume main.pdf"><button className="px-8 py-4 bg-gradient-to-r from-purple-600 to-red-600 rounded-full text-white font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105">
+          <a href="/rithik resume main.pdf"><button className="px-8 py-4 bg-gradient-to-r from-purple-600 to-red-600 rounded-full text-white font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105">
             Download Resume
           </button></a>
           <Link
