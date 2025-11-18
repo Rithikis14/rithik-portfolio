@@ -18,19 +18,19 @@ const skillCategories = [
     skills: [
       { name: 'Pandas', level: 95 },
       { name: 'Data Visualization', level: 80 },
-      { name: 'Database', level: 70 },
+      { name: 'GEN-AI', level: 70 },
       { name: 'Machine Learning', level: 60 },
       { name: 'TensorFLow', level: 50 }
     ]
   },
   {
-    title: 'Frontend Development',
+    title: 'Web Development',
     skills: [
-      { name: 'HTML', level: 95 },
-      { name: 'CSS', level: 75 },
-      { name: 'ReactJs', level: 50 },
-      { name: 'JQuery', level: 45 },
-      { name: 'Next.Js', level: 30 },
+      { name: 'ReactJs', level: 95 },
+      { name: 'MongoDB', level: 80 },
+      { name: 'NodeJs', level: 65 },
+      { name: 'ExpressJs', level: 60 },
+      { name: 'PostgreSQL', level: 50 },
     ]
   },
   {
@@ -40,7 +40,7 @@ const skillCategories = [
       { name: 'Power BI', level: 75 },
       { name: 'Knime Analytics', level: 80 },
       { name: 'Figma', level: 80 },
-      { name: 'Prompt Engineering', level: 90 },
+      { name: 'N8N', level: 90 },
     ]
   }
 ];

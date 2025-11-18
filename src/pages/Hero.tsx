@@ -40,7 +40,7 @@ const Hero = () => {
           <div className="relative w-48 h-48 mx-auto">
             <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-red-400 rounded-full blur-lg opacity-30"></div>
             <img
-              src="/IMG-20250412-WA0015.jpg"
+              src="/Screenshot 2025-10-22 180152.png"
               alt="Profile"
               className="relative w-full h-full rounded-full object-cover border-4 border-gray-700"
             />
@@ -59,7 +59,7 @@ const Hero = () => {
           variants={itemVariants}
           className="text-2xl md:text-3xl font-light mb-8 text-gray-300"
         >
-          Data Scientist & Frontend Developer
+          AI Full Stack Developer
         </motion.h2>
 
         {/* Description */}
@@ -67,9 +67,7 @@ const Hero = () => {
           variants={itemVariants}
           className="text-lg md:text-xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed"
         >
-          Passionate about creating innovative solutions through cutting-edge technology. 
-          Specializing in web development, machine learning, and data analysis to bring 
-          ideas to life and solve complex problems.
+          Expert in building and optimizing end-to-end solutions using web technologies, AI, and data science. Focused on applying cutting-edge analytics to solve real-world problems and enhance product performance.
         </motion.p>
 
         {/* CTA Buttons */}
@@ -77,7 +75,7 @@ const Hero = () => {
           variants={itemVariants}
           className="flex flex-col sm:flex-row gap-6 justify-center mb-16"
         >
-          <a href="/rithik resume main.pdf"><button className="px-8 py-4 bg-gradient-to-r from-purple-600 to-red-600 rounded-full text-white font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105">
+          <a href="/Rithik Resume.pdf"><button className="px-8 py-4 bg-gradient-to-r from-purple-600 to-red-600 rounded-full text-white font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105">
             Download Resume
           </button></a>
           <Link
