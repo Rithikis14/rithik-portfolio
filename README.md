@@ -1,73 +1,80 @@
-# Welcome to your Lovable project
+# **Rithik V Kumar | Portfolio**
+### AI Full Stack Developer & Competitive Programmer
 
-## Project info
+Welcome to the repository for my personal portfolio. This site is a high-performance, responsive showcase of my expertise in **Artificial Intelligence**, **Full Stack Development**, and **Competitive Programming**. Designed with a high-contrast **Orange and Black** theme, it reflects a professional engineering aesthetic focused on clarity and technical authority.
 
-**URL**: https://lovable.dev/projects/a179b0f5-627d-4b7b-9581-64e68a184a52
+---
 
-## How can I edit this code?
+## **🚀 Professional Summary**
 
-There are several ways of editing your application.
+I am a Computer Science Engineering student (2023-2027) at **St. Joseph’s Institute of Technology** based in Chennai, Tamil Nadu. My work focuses on building and optimizing end-to-end solutions using web technologies, AI, and data science to solve real-world problems.
 
-**Use Lovable**
+*   **Competitive Programming:** Solved over **1,800 problems** across platforms like Skillrack, CodeChef, LeetCode, and GeeksforGeeks.
+*   **Specialization:** Applied AI, Generative AI, Large Language Models (LLMs), and Computer Vision.
+*   **Experience:** Previous Frontend Development Intern at CETAS Information Technology.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a179b0f5-627d-4b7b-9581-64e68a184a52) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## **🛠️ Tech Stack**
 
-**Use your preferred IDE**
+### **Frontend & UI**
+*   **Framework:** React.js / Vite
+*   **Styling:** Tailwind CSS (Custom Orange & Black high-contrast theme)
+*   **Animations:** Framer Motion (3D transitions and stagger effects)
+*   **Graphics:** Three.js / React Three Fiber (Particle backgrounds)
+*   **Components:** Radix UI / Shadcn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### **Backend & AI**
+*   **Languages:** Python, JavaScript, TypeScript, C++, Java
+*   **Frameworks:** Node.js, Express, FastAPI, Flask
+*   **AI/ML:** TensorFlow, ScikitLearn, YOLOv11, OpenAI API, Whisper, Coqui TTS
+*   **Database:** MongoDB, MySQL
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## **✨ Key Features**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+*   **Interactive Hero Section:** Large rectangular profile imagery with a grayscale-to-color hover effect and floating achievement badges.
+*   **Achievements Bento Grid:** A modern grid layout showcasing coding platform statistics and hackathon wins (e.g., Deep Blue Finalist, AIRA 2k26 Runner-up).
+*   **Project Showcase:** A filtered grid system featuring major works like **AquaThreat** (Underwater mine detection) and **Reminisce AI** (Dementia care assistant).
+*   **Progress Tracking:** Custom-styled progress bars for education and professional milestones.
+*   **Dynamic Background:** Real-time 3D particle field that responds to mouse movement.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## **📂 Core Projects**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+*   **AquaThreat:** An end-to-end framework for detecting underwater mines and artillery using YOLOv8/v11 and GAN-based data augmentation.
+*   **Reminisce AI:** A voice-driven assistant for dementia care utilizing React, FastAPI, Whisper, and Coqui TTS.
+*   **Reviron:** An E-Waste Management platform built with the MERN stack.
+*   **Financial E-book:** Author of "Shine and Grow," a guide on metal investments.
+
+---
+
+## **🚦 Installation & Setup**
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Rithikis14/your-portfolio-repo.git
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+---
+
+## **📬 Contact & Socials**
+
+*   **LinkedIn:** [rithikvkumar14](https://www.linkedin.com/in/rithikvkumar14)
+*   **GitHub:** [Rithikis14](https://github.com/Rithikis14)
+*   **Instagram:** [@rithikvk_14](https://www.instagram.com/rithikvk_14/)
+*   **Location:** Chennai, India
+
+---
+*Created by Rithik V Kumar.*
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a179b0f5-627d-4b7b-9581-64e68a184a52) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
