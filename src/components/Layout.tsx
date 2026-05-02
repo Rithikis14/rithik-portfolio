@@ -10,7 +10,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white overflow-hidden relative">
+    <div className="min-h-screen bg-black text-orange-500 overflow-hidden relative">
       {/* Gradient Background */}
       <div className="fixed inset-0 bg-gradient-to-br from-purple-900/20 via-gray-900 to-red-900/20" />
       <div className="fixed inset-0 bg-gradient-to-tr from-indigo-500/10 via-transparent to-pink-500/10" />

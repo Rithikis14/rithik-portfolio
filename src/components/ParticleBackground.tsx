@@ -42,14 +42,15 @@ const ParticleField = ({ mousePosition }: { mousePosition: { x: number; y: numbe
 
   return (
     <Points ref={ref} positions={particlesPosition} stride={3} frustumCulled={false}>
-      <PointMaterial
-        transparent
-        color="#8b5cf6"
-        size={0.08}
-        sizeAttenuation={true}
-        depthWrite={false}
-        opacity={0.6}
-      />
+      {/* ParticleBackground.tsx inside PointMaterial */}
+<PointMaterial
+  transparent
+  color="#f97316"
+  size={0.07}
+  sizeAttenuation={true}
+  depthWrite={false}
+  opacity={0.4}
+/>
     </Points>
   );
 };

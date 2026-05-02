@@ -10,9 +10,9 @@ const experienceData = [
       {
         title: 'University',
         organization: 'St. Josephs Institute Of Technology',
-        details: 'CGPA: 8.42',
+        details: 'CGPA: 8.33',
         period: '2023-2027',
-        progress: 50
+        progress: 80
       },
       {
         title: 'High School',
@@ -31,7 +31,7 @@ const experienceData = [
         organization: 'Cetas Information Technology Pvt Ltd',
         details: 'Developed Frontend Interfaces using HTML, CSS, JavaScript, ReactJs, Bootstrap, JQuery',
         period: 'Summer 2025',
-        progress: 15
+        progress: 100
       },
       {
         title: 'Data Scientist',

@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -14,31 +13,60 @@ import Services from "./pages/Services";
 import Experience from "./pages/Experience";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import ScrollReveal from "./components/ScrollReveal";
 
 const queryClient = new QueryClient();
 
 const App = () => (
+  <BrowserRouter>
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
-        <Layout>
-          <Routes>
-            <Route path="/" element={<Hero />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/certifications" element={<Certifications />} />
-            <Route path="/coding-profiles" element={<CodingProfiles />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/experience" element={<Experience />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </Layout>
-      </BrowserRouter>
+      <Layout>
+      <section id="hero">
+        <Hero />
+      </section>
+
+      <ScrollReveal>
+        <section id="skills">
+          <Skills />
+        </section>
+      </ScrollReveal>
+      <ScrollReveal>
+        <section id="projects">
+          <Projects />
+        </section>
+      </ScrollReveal>
+       <ScrollReveal>
+        <section id="experience">
+          <Experience />
+        </section>
+      </ScrollReveal>
+            <ScrollReveal>
+        <section id="coding-profiles">
+          <CodingProfiles />
+        </section>
+      </ScrollReveal>
+      <ScrollReveal>
+        <section id="certifications">
+          <Certifications />
+        </section>
+      </ScrollReveal>
+      <ScrollReveal>
+        <section id="services">
+          <Services />
+        </section>
+      </ScrollReveal>
+      <ScrollReveal>
+        <section id="contact">
+          <Contact />
+        </section>
+      </ScrollReveal>
+      </Layout>
     </TooltipProvider>
   </QueryClientProvider>
+  </BrowserRouter>
 );
 
 export default App;
